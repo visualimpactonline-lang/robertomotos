@@ -2,7 +2,13 @@ import React from 'react';
 import { Card, CardContent } from '@/components/ui/card';
 import { Label } from '@/components/ui/label';
 import { Slider } from '@/components/ui/slider';
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue
+} from '@/components/ui/select';
 import { Button } from '@/components/ui/button';
 import { useCatalog } from '@/contexts/CatalogContext.jsx';
 
@@ -35,13 +41,18 @@ export default function FilterBar() {
               min={0}
               max={200000}
               step={1000}
-              value={[filters.priceMin, filters.priceMax]}
-              onValueChange={([min, max]) => updateFilters({ priceMin: min, priceMax: max })}
+              value={[Number(filters.priceMin) || 0, Number(filters.priceMax) || 200000]}
+              onValueChange={([min, max]) =>
+                updateFilters({
+                  priceMin: min,
+                  priceMax: max
+                })
+              }
               className="mb-2"
             />
             <div className="flex justify-between text-sm text-muted-foreground">
-              <span>{formatPrice(filters.priceMin)}</span>
-              <span>{formatPrice(filters.priceMax)}</span>
+              <span>{formatPrice(Number(filters.priceMin) || 0)}</span>
+              <span>{formatPrice(Number(filters.priceMax) || 200000)}</span>
             </div>
           </div>
         </div>
@@ -159,7 +170,7 @@ export default function FilterBar() {
               className="mb-2"
             />
             <div className="text-sm text-muted-foreground text-right">
-              {formatMileage(filters.mileageMax)} km
+              {formatMileage(Number(filters.mileageMax) || 200000)} km
             </div>
           </div>
         </div>
