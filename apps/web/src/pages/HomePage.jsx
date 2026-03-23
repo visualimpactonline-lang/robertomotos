@@ -111,7 +111,7 @@ export default function HomePage() {
               className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 max-w-5xl mx-auto leading-tight text-balance"
               style={{ letterSpacing: '-0.02em' }}
             >
-              Compra, Venda, Troca e Financiamento de motos com procedência garantida.
+              Compra, Venda, Troca e Financiamento de motos com procedência garantida
             </h1>
 
             <p className="text-xl md:text-2xl text-white/90 mb-8 max-w-3xl mx-auto leading-relaxed">
