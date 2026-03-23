@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import { MapPin, Phone, Clock, Instagram } from 'lucide-react';
-import {
+import { MapPin, Phone, Clock, Instagram, MessageCircle } from 'lucide-react';import {
   ADDRESS_LABEL,
   CONTACT_PHONE_PRIMARY,
   CONTACT_PHONE_SECONDARY,
