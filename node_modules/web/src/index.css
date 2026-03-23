@@ -1,0 +1,76 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "DM Sans", sans-serif;
+  overflow-x: clip;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@layer base {
+  :root {
+    --background: 210 11% 4%;
+    --foreground: 0 0% 100%;
+    --card: 210 11% 10%;
+    --card-foreground: 0 0% 100%;
+    --popover: 210 11% 10%;
+    --popover-foreground: 0 0% 100%;
+    --primary: 0 100% 50%;
+    --primary-dark: 0 100% 40%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 0 0% 0%;
+    --secondary-foreground: 0 0% 100%;
+    --muted: 0 0% 40%;
+    --muted-foreground: 0 0% 63.9%;
+    --accent: 0 0% 100%;
+    --accent-foreground: 0 0% 0%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 210 11% 10%;
+    --input: 210 11% 10%;
+    --ring: 0 100% 50%;
+    --radius: 0.5rem;
+    
+    --sidebar-background: 210 11% 4%;
+    --sidebar-foreground: 0 0% 100%;
+    --sidebar-primary: 0 100% 50%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 210 11% 10%;
+    --sidebar-accent-foreground: 0 0% 100%;
+    --sidebar-border: 210 11% 10%;
+    --sidebar-ring: 0 100% 50%;
+  }
+}
+
+@layer utilities {
+  .shadow-premium {
+    box-shadow: 0 20px 40px rgba(255, 0, 0, 0.15);
+  }
+  
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  text-wrap: balance;
+}
+
+* {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 200ms;
+}
+
+button, a {
+  transition: all 0.3s ease;
+}
