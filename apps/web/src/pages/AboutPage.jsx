@@ -105,9 +105,9 @@ export default function AboutPage() {
             >
               <div className="aspect-[4/3] rounded-2xl overflow-hidden shadow-premium">
                 <img 
-                  src="https://images.unsplash.com/photo-1660277702388-1510ea33ed0c" 
+                  src="/pedrinho.jpg" 
                   alt="Showroom RP Motos"
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-contain"
                 />
               </div>
             </motion.div>
