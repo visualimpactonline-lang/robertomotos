@@ -96,7 +96,7 @@ export default function Footer() {
                 className="flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors duration-200"
               >
                 <Instagram className="w-4 h-4" />
-                <span>@rezende.motos</span>
+                <span>@roberto.motos</span>
               </a>
             </div>
           </div>

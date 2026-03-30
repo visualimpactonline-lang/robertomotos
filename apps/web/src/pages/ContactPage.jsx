@@ -66,8 +66,8 @@ export default function ContactPage() {
     {
       icon: Mail,
       title: 'E-mail',
-      content: 'contato@rezendemotos.com.br',
-      link: 'mailto:contato@rezendemotos.com.br'
+      content: 'contato@robertomotos.com.br',
+      link: 'mailto:contato@robertomotos.com.br'
     }
   ];
 

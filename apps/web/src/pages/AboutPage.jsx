@@ -105,7 +105,7 @@ export default function AboutPage() {
             >
               <div className="aspect-[4/3] rounded-2xl overflow-hidden shadow-premium">
                 <img 
-                  src="/rezende.png" 
+                  src="/robertomotos.png" 
                   alt="Showroom Roberto Motos"
                   className="w-full h-full object-contain"
                 />
