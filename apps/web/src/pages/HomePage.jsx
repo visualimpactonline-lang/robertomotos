@@ -58,7 +58,7 @@ export default function HomePage() {
   const testimonials = [
     {
       name: 'Lucas Silva',
-      text: 'Comprei minha Yamaha na RP Motos e foi a melhor experiência. Atendimento impecável, moto revisada e preço justo. Recomendo!',
+      text: 'Comprei minha Yamaha na Roberto Motos e foi a melhor experiência. Atendimento impecável, moto revisada e preço justo. Recomendo!',
       initials: 'LS'
     },
     {
@@ -68,7 +68,7 @@ export default function HomePage() {
     },
     {
       name: 'Rafael Costa',
-      text: 'Já é minha segunda moto comprada na RP Motos. Confiança total na procedência e qualidade. Sempre volto aqui!',
+      text: 'Já é minha segunda moto comprada na Roberto Motos. Confiança total na procedência e qualidade. Sempre volto aqui!',
       initials: 'RC'
     },
     {
@@ -81,10 +81,10 @@ export default function HomePage() {
   return (
     <>
       <Helmet>
-        <title>RP Motos - Compra, venda, troca e financiamento de motos</title>
+        <title>Roberto Motos</title>
         <meta
           name="description"
-          content="Encontre sua próxima moto na RP Motos. Compra, venda, troca e financiamento com procedência garantida e atendimento rápido no WhatsApp."
+          content="Encontre sua próxima moto na Roberto Motos. Compra, venda, troca e financiamento com procedência garantida e atendimento rápido no WhatsApp."
         />
       </Helmet>
 
@@ -173,7 +173,7 @@ export default function HomePage() {
               className="text-3xl md:text-4xl font-bold text-foreground mb-4"
               style={{ letterSpacing: '-0.02em' }}
             >
-              Por que escolher a RP Motos
+              Por que escolher a Roberto Motos
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
               Compromisso com qualidade, segurança e satisfação do cliente
@@ -260,7 +260,7 @@ export default function HomePage() {
               O que nossos clientes dizem
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Depoimentos de quem já comprou na RP Motos
+              Depoimentos de quem já comprou na Roberto Motos
             </p>
           </motion.div>
 

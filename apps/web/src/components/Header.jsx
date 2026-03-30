@@ -35,7 +35,7 @@ export default function Header() {
               <h1 className="text-white font-semibold text-lg">
                 {COMPANY_NAME}
               </h1>
-              <p className="text-gray-400 text-sm">
+              <p className="text-white text-sm">
                 Qualidade e procedência
               </p>
             </div>

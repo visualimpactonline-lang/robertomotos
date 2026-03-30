@@ -176,7 +176,7 @@ export default function AdminPage() {
   return (
     <>
       <Helmet>
-        <title>Admin - RP Motos</title>
+        <title>Admin - Roberto Motos</title>
       </Helmet>
       <Header />
 
@@ -224,7 +224,7 @@ export default function AdminPage() {
               </div>
 
               {!isSupabaseConfigured && (
-                <div className="mb-6 rounded-xl border border-yellow-500/30 bg-yellow-500/10 p-4 text-sm text-yellow-200">
+                <div className="mb-6 rounded-xl border border-yellow-500/30 bg-green-600/10 p-4 text-sm text-black">
                   Para o admin funcionar de verdade, configure o Supabase no arquivo <strong>.env</strong> usando o modelo <strong>.env.example</strong>.
                 </div>
               )}

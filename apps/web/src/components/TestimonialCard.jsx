@@ -21,7 +21,7 @@ export default function TestimonialCard({ name, text, photo, initials }) {
           </Avatar>
           <div>
             <p className="font-semibold text-foreground">{name}</p>
-            <p className="text-sm text-muted-foreground">Cliente RP Motos</p>
+            <p className="text-sm text-muted-foreground">Cliente Roberto Motos</p>
           </div>
         </div>
       </CardContent>

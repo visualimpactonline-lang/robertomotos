@@ -44,8 +44,8 @@ export default function AboutPage() {
   return (
     <>
       <Helmet>
-        <title>Sobre a RP Motos - Nossa história e valores</title>
-        <meta name="description" content="Conheça a RP Motos, nossa história, missão, visão e valores. Compromisso com qualidade e satisfação do cliente." />
+        <title>Roberto Motos</title>
+        <meta name="description" content="Conheça a Roberto Motos, nossa história, missão, visão e valores. Compromisso com qualidade e satisfação do cliente." />
       </Helmet>
 
       <Header />
@@ -59,7 +59,7 @@ export default function AboutPage() {
             transition={{ duration: 0.5 }}
           >
             <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-4" style={{ letterSpacing: '-0.02em' }}>
-              Sobre a RP Motos
+              Sobre a Roberto Motos
             </h1>
             <p className="text-lg text-muted-foreground max-w-2xl">
               Conheça nossa história e nosso compromisso com você
@@ -82,13 +82,13 @@ export default function AboutPage() {
               </h2>
               <div className="space-y-4 text-muted-foreground leading-relaxed">
                 <p>
-                  A RP Motos nasceu da paixão por motocicletas e do desejo de oferecer ao mercado uma opção confiável para quem busca motos usadas de qualidade.
+                  A Roberto Motos nasceu da paixão por motocicletas e do desejo de oferecer ao mercado uma opção confiável para quem busca motos usadas de qualidade.
                 </p>
                 <p>
                   Com anos de experiência no mercado, construímos nossa reputação baseada em três pilares fundamentais: qualidade, procedência e atendimento diferenciado.
                 </p>
                 <p>
-                  Cada moto que passa pela RP Motos é cuidadosamente selecionada, revisada e preparada para oferecer a melhor experiência ao novo proprietário. Nossa equipe de especialistas garante que você está fazendo um investimento seguro.
+                  Cada moto que passa pela Roberto Motos é cuidadosamente selecionada, revisada e preparada para oferecer a melhor experiência ao novo proprietário. Nossa equipe de especialistas garante que você está fazendo um investimento seguro.
                 </p>
                 <p>
                   Hoje, somos referência em Piracicaba quando o assunto é compra de motos usadas com garantia de procedência e qualidade.
@@ -105,8 +105,8 @@ export default function AboutPage() {
             >
               <div className="aspect-[4/3] rounded-2xl overflow-hidden shadow-premium">
                 <img 
-                  src="/pedrinho.jpg" 
-                  alt="Showroom RP Motos"
+                  src="/rezende.png" 
+                  alt="Showroom Roberto Motos"
                   className="w-full h-full object-contain"
                 />
               </div>
@@ -173,7 +173,7 @@ export default function AboutPage() {
               <div className="aspect-video rounded-2xl overflow-hidden shadow-premium">
                 <img 
                   src="https://images.unsplash.com/photo-1558981806-ec527fa84c39" 
-                  alt="Motos RP Motos"
+                  alt="Motos Roberto Motos"
                   className="w-full h-full object-cover"
                 />
               </div>

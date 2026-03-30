@@ -4,7 +4,7 @@ export default function AdminProtectedRoute({ children }) {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
   const [password, setPassword] = useState('');
 
-  const correctPassword = 'rpmotos12026';
+  const correctPassword = 'rezendemotos';
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -21,7 +21,7 @@ export default function AdminProtectedRoute({ children }) {
       <div className="min-h-screen flex items-center justify-center bg-white px-4">
         <div className="w-full max-w-sm border rounded-xl shadow-md p-6 bg-white">
           <h1 className="text-2xl font-bold text-center mb-2">Área restrita</h1>
-          <p className="text-center text-gray-600 mb-4">
+          <p className="text-center text-black mb-4">
             Digite a senha para acessar o painel
           </p>
 

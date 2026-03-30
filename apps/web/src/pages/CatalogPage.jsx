@@ -100,7 +100,7 @@ export default function CatalogPage() {
   return (
     <CatalogProvider>
       <Helmet>
-        <title>Catálogo de Motos - RP Motos</title>
+        <title>Catálogo de Motos - Roberto Motos</title>
         <meta name="description" content="Confira nosso catálogo completo de motos. Motos revisadas com procedência garantida e preços competitivos." />
       </Helmet>
 

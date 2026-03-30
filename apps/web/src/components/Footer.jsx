@@ -46,7 +46,7 @@ export default function Footer() {
 
               <div className="leading-tight">
                 <h2 className="text-white font-semibold">
-                  RP Motos
+                  Roberto Motos
                 </h2>
               </div>
             </button>
@@ -87,15 +87,6 @@ export default function Footer() {
                 <Phone className="w-4 h-4" />
                 <span>{CONTACT_PHONE_PRIMARY}</span>
               </a>
-              <a
-                href={WHATSAPP_LINK}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors duration-200"
-              >
-                <Phone className="w-4 h-4" />
-                <span>{CONTACT_PHONE_SECONDARY}</span>
-              </a>
 
               {/* INSTAGRAM CORRIGIDO */}
               <a
@@ -105,7 +96,7 @@ export default function Footer() {
                 className="flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors duration-200"
               >
                 <Instagram className="w-4 h-4" />
-                <span>@rp_motos1</span>
+                <span>@rezende.motos</span>
               </a>
             </div>
           </div>
@@ -129,7 +120,7 @@ export default function Footer() {
 
         <div className="border-t border-border mt-8 pt-8 flex flex-col sm:flex-row justify-between items-center gap-4">
           <p className="text-sm text-muted-foreground">
-            © 2026 RP Motos. Todos os direitos reservados.
+            © 2026 Roberto Motos. Todos os direitos reservados.
           </p>
           <div className="flex gap-6">
             <Link to="/privacidade" className="text-sm text-muted-foreground hover:text-foreground transition-colors duration-200">

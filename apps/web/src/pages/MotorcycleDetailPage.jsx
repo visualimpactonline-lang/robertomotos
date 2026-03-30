@@ -116,7 +116,7 @@ export default function MotorcycleDetailPage() {
   return (
     <>
       <Helmet>
-        <title>{`${motorcycle.nome} ${motorcycle.modelo} - RP Motos`}</title>
+        <title>{`${motorcycle.nome} ${motorcycle.modelo} - Roberto Motos`}</title>
         <meta name="description" content={`${motorcycle.nome} ${motorcycle.modelo} ${motorcycle.ano} - ${formatPrice(motorcycle.preco)}. ${motorcycle.descricao || 'Moto revisada com procedência garantida.'}`} />
       </Helmet>
 

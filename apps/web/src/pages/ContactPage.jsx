@@ -12,7 +12,7 @@ import { Button } from '@/components/ui/button';
 import { Label } from '@/components/ui/label';
 import { useToast } from '@/hooks/use-toast';
 import { generateWhatsAppLink } from '@/lib/whatsappUtils.js';
-import { ADDRESS_LABEL, CONTACT_PHONE_PRIMARY, CONTACT_PHONE_SECONDARY, GOOGLE_MAPS_LINK } from '@/lib/siteConfig.js';
+import { ADDRESS_LABEL, CONTACT_PHONE_PRIMARY, GOOGLE_MAPS_LINK } from '@/lib/siteConfig.js';
 
 export default function ContactPage() {
   const { toast } = useToast();
@@ -59,12 +59,6 @@ export default function ContactPage() {
       link: generateWhatsAppLink()
     },
     {
-      icon: Phone,
-      title: 'Telefone secundário',
-      content: CONTACT_PHONE_SECONDARY,
-      link: generateWhatsAppLink()
-    },
-    {
       icon: Clock,
       title: 'Horário',
       content: 'Seg-Sex: 9h-18h\nSábado: 9h-14h'
@@ -72,16 +66,16 @@ export default function ContactPage() {
     {
       icon: Mail,
       title: 'E-mail',
-      content: 'contato@rpmotos.com.br',
-      link: 'mailto:contato@rpmotos.com.br'
+      content: 'contato@rezendemotos.com.br',
+      link: 'mailto:contato@rezendemotos.com.br'
     }
   ];
 
   return (
     <>
       <Helmet>
-        <title>Contato - RP Motos</title>
-        <meta name="description" content="Entre em contato com a RP Motos. Estamos prontos para ajudar você a encontrar a moto ideal." />
+        <title>Contato - Roberto Motos</title>
+        <meta name="description" content="Entre em contato com a Roberto Motos. Estamos prontos para ajudar você a encontrar a moto ideal." />
       </Helmet>
 
       <Header />
