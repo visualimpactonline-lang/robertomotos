@@ -3,6 +3,9 @@
   "type": "module",
   "version": "0.0.0",
   "private": true,
+  "engines": {
+    "node": "20.x"
+  },
   "scripts": {
     "dev": "vite --host 0.0.0.0 --port 3000",
     "build": "vite build",
@@ -55,7 +58,7 @@
     "react-helmet": "^6.1.0",
     "react-hook-form": "^7.71.2",
     "react-resizable-panels": "^4.7.2",
-    "react-router-dom": "^7.13.0",
+    "react-router-dom": "^7.13.2",
     "recharts": "^2.15.4",
     "tailwind-merge": "^2.6.0",
     "tailwindcss-animate": "^1.0.7",
@@ -70,7 +73,7 @@
     "@types/node": "^20.17.10",
     "@types/react": "^18.3.18",
     "@types/react-dom": "^18.3.5",
-    "@vitejs/plugin-react": "^5.1.4",
+    "@vitejs/plugin-react": "^6.0.1",
     "autoprefixer": "^10.4.20",
     "eslint": "^8.57.1",
     "eslint-import-resolver-alias": "^1.1.2",
